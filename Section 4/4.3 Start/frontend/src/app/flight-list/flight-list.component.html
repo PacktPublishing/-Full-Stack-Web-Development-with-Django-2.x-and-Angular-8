@@ -1,0 +1,62 @@
+<div class="container">
+  <div class="title">
+  <h1>Flight Scheduler</h1>   
+  </div>
+    <div class="col-lg-12 well">
+  <div class="row">
+      <div class="col-md-12">
+          <h4 class="text-left">Active Flight Schedule</h4> 
+      </div>
+      <div class="col-lg-12 ml-auto mr-auto">
+          <div class="table-responsive">
+          <table class="table">
+              <thead>
+                  <tr>
+                      <th class="text-center">No.</th>
+                      <th>Airline</th>
+                      <th>Flight Number</th>
+                      <th>Trip Type</th>
+                      <th>Departure Airport</th>
+                      <th>Arrival Airport</th>
+                      <th>Departure Date</th>
+                      <th>Return Date</th>
+                      <th class="text-right">Actions</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td class="text-center">1</td>
+                      <td>United Airlines</td>
+                      <td>UA123</td>
+                      <td>Round Trip</td>
+                      <td>ORD</td>
+                      <td>JFK</td>
+                      <td>06-30-2019</td>
+                      <td>07-01-2019</td>
+                      <td class="td-actions text-right">                             
+                          <a type="button" class="btn btn-success btn-just-icon btn-sm "
+                          style="margin-left:10px;">
+                              <i class="material-icons">Edit</i>
+                          </a>
+
+                          <button (click)="deleteFlight()" type="button" rel="tooltip" class="btn btn-danger btn-just-icon btn-sm" data-original-title="" title="" style="margin-left:10px;">
+                              <i class="material-icons">Delete</i>
+                          </button>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="text-right">
+                        <button (click)="deleteAllFlights()" type="button" rel="tooltip" class="btn btn-danger btn-just-icon btn-lg" data-original-title="" title="" style="margin-left:10px;" >
+                            <i class="material-icons">Delete All</i>
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+              </tbody>
+          </table>
+          </div>
+   </div>
+</div>
+</div>
+</div>
