@@ -16,5 +16,6 @@ class ScheduleSerializer(serializers.HyperlinkedModelSerializer):
                     'departure_airport',
                     'arrival_airport',
                     'departure_date',
-                    'return_date'
+                    'return_date',
+                    'id'
         )
