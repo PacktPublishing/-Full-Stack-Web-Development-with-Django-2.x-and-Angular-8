@@ -1,8 +1,3 @@
-## $5 Tech Unlocked 2021!
-[Buy and download this product for only $5 on PacktPub.com](https://www.packtpub.com/)
------
-*The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
-
 # -Full-Stack-Web-Development-with-Django-2.x-and-Angular-8
 Full-Stack Web Development with Django 2.x and Angular 8, published by Packt
 This is the code repository for [Full-Stack Web Development with Django and Angular 8]( https://www.packtpub.com/web-development/full-stack-web-development-with-django-and-angular-8-video), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
